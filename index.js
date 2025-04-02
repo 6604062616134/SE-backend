@@ -7,10 +7,10 @@ const cookieParser = require('cookie-parser');
 app.use(cookieParser());
 
 const corsOptions = {
-  origin: '*',
+  origin: '*'
 };
 
-app.use(cors());
+app.use(cors(corsOptions));
 app.use(express.urlencoded({ extended: true }));
 
 app.use(express.json());
