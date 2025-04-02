@@ -1,10 +1,10 @@
 const mysql = require('mysql2/promise');
 
 const pool = mysql.createPool({
-    host: 'localhost', 
+    host: 'trolley.proxy.rlwy.net', 
     user: 'root', 
-    password: '', 
-    database: 'boardgames', 
+    password: 'hQvrcrVRjUXlJImHRJqXJRpcJygReUqR', 
+    database: 'railway', 
     waitForConnections: true,
     connectionLimit: 10,
     queueLimit: 0
