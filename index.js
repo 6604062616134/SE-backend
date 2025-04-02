@@ -7,7 +7,7 @@ const cookieParser = require('cookie-parser');
 app.use(cookieParser());
 
 const corsOptions = {
-  origin: '*'
+  origin: 'https://se-frontend-seven.vercel.app'
 };
 
 app.use(cors(corsOptions));
