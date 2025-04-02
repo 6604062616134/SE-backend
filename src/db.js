@@ -2,7 +2,7 @@ const mysql = require('mysql2/promise');
 
 const pool = mysql.createPool({
     host: 'trolley.proxy.rlwy.net', 
-    port: 3306,
+    port: 23700,
     user: 'root', 
     password: 'hQvrcrVRjUXlJImHRJqXJRpcJygReUqR', 
     database: 'railway', 
